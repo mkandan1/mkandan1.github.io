@@ -4,6 +4,7 @@ html, body{
     padding: 0;
     height: 100vh;
     background-image: linear-gradient(120deg, #0019d8, #7700ef,#7d07b0);
+    overflow-x: hidden;
 }
 main{
     height: 100vh;
