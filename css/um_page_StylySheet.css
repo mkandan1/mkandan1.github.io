@@ -20,7 +20,7 @@ main{
     letter-spacing: 1px;
     color: #fff;
     font-weight: 300;
-    font-size: calc(10px + 2vw);
+    font-size: calc(10px + 1.5vw);
 }
 .counter{
     display: flex;
