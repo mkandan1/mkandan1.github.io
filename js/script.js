@@ -1,4 +1,4 @@
-var releaseDate = new Date("May 23, 2021 08:30:00").getTime();
+var releaseDate = new Date("May 30, 2021 08:30:00").getTime();
 
 var myfunc = setInterval(function() {
     var current = new Date().getTime();

@@ -52,3 +52,23 @@ main{
     font-size: calc(15px + 2vw);
     font-weight: 800;
 }
+.announce{
+    background-color: #acebd3;
+}
+.announce-text h2{
+    font-size: 13px;
+}
+#bold{
+    font-size: 13px;
+    margin: 0;
+    font-weight: bold;
+    color: #000;
+}
+.remove_announce{
+    padding: 0;
+    margin: 0;
+    height: 23px;
+    background-color: transparent;
+    border: none;
+    right: 0;
+}
