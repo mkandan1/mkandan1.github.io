@@ -1,4 +1,9 @@
 
+/*
+Website designed and coded by Manikandan
+(c) copyright 2021
+*/
+
 html, body{
     margin: 0;
     padding: 0;
@@ -21,55 +26,4 @@ main{
     color: #fff;
     font-weight: 300;
     font-size: calc(10px + 1.5vw);
-}
-.counter{
-    display: flex;
-    justify-content: center;
-}
-.__border{
-    width: calc(30px + 8vh);
-    background-color: white;
-    border-radius: 10px;
-    height: calc(-5px + 12vh);
-    display: flex;
-    justify-content: center;
-}
-.__Elements{
-    align-self: center;
-}
-.timer{
-    display: flex;
-    justify-content: center;
-}
-.timer h1{
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-    color: #7d07b0;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.timer span{
-    font-size: calc(15px + 2vw);
-    font-weight: 800;
-}
-.announce{
-    background-color: #acebd3;
-}
-.announce-text h2{
-    font-size: 13px;
-    line-height: 17px;
-}
-#bold{
-    font-size: 13px;
-    margin: 0;
-    font-weight: bold;
-    color: #000;
-}
-.remove_announce{
-    padding: 0;
-    margin: 0;
-    height: 23px;
-    background-color: transparent;
-    border: none;
-    right: 0;
 }
