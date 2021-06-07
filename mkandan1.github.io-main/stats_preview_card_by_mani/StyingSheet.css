@@ -1,0 +1,93 @@
+/*
+
+This sheet for 1440px desktop view
+
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    overflow-x: hidden;
+}
+
+#card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80vw;
+    height: auto;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.background_hero {
+    width: 40vw;
+    height: 65vh;
+    background-image: url(https://mkandan1.github.io/stats_preview_card_by_mani/img/image-header-desktop.jpg);
+    background-color:hsl(277, 64%, 61%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    border-radius: 0 5px 5px 0;
+}
+
+.contents {
+    width: 40vw;
+    height: 65vh;
+}
+
+.contents-container {
+    padding: 50px 70px 10px 60px;
+}
+
+.heading h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+}
+
+.heading span {
+    color: hsl(277, 64%, 61%);
+}
+
+.para {
+    margin-top: 20px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stat h2{
+    margin: 50px 0 5px 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.stat h4{
+    margin: 0;
+    padding: 0;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+}
+

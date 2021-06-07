@@ -1,0 +1,29 @@
+
+/*
+Website designed and coded by Manikandan
+(c) copyright 2021
+*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #0019d8, #7700ef,#7d07b0);
+    overflow-x: hidden;
+}
+main{
+    height: 100vh;
+}
+.header h3{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 800;
+}
+.header h4{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 300;
+    font-size: calc(10px + 1.5vw);
+}
