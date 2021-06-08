@@ -55,13 +55,13 @@ body{
     height: 79vh;
 }
 .welcome_sec_text{
-    margin-bottom: 20vh !important;
     position: relative;
 }
 .welcome_sec_text h1{
     font-family: var(--font-com);
-    font-size: min(max(0.1rem, 4vw), 32px);
+    font-size: min(max(1.4rem, 4vw), 32px);
     font-weight: bold;
+    line-height: 27px;
     color: #7e28d4;
     opacity: 90%;
 }
@@ -71,7 +71,7 @@ body{
 }
 .welcome_sec_text p{
     font-family: var(--font-com);
-    font-size: min(max(0.1rem, 5vw), 15px);
+    font-size: min(max(0.1rem, 3vw), 15px);
     opacity: 60%;
     margin-top: 6px;
     line-height: 30px;
@@ -81,7 +81,7 @@ body{
     height: 120px;
     position: relative;
     right: 0;
-    margin-top: -70px !important;
+    margin-top: -50px !important;
 }
 .circle_one{
     position: absolute;
@@ -116,9 +116,6 @@ body{
     0%{
         margin-bottom: -80px;
     }
-    50%{
-     margin-bottom: -40px;
-    }
     100%{
      margin-bottom: -0px;
     }
@@ -127,10 +124,59 @@ body{
      0%{
         margin-bottom: -25px;
      }
-     50%{
-         margin-bottom: -15px;
-     }
      100%{
          margin-bottom: -0px;
      }
   }
+
+.user_card_container{
+    width: 190px;
+    height: 250px;
+    margin-bottom: 6vh !important;
+}
+  .user_card{
+      width: 100%;
+      height: 100%;
+      box-shadow: 0px 0px 30px 1px #d8d8d8;
+      border-radius: 5px;
+  }
+.profile_pic{
+    width: 100%;
+    height: 95px;
+}
+.profile_img{
+    width: 30%;
+    margin-top: 40px;
+}
+.profile_img img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #bcbcbc;
+}
+.users_name{
+    margin-top: 30px;
+}
+.users_name h2{
+    font-size: 18px;
+    font-family: var(--font-com);
+    font-weight: bold;
+    opacity: 80%;
+}
+.users_tag h3{
+    font-size: 11px;
+    opacity: 50%;
+}
+.verified_container {
+    width: 100%;
+    margin-top: 30px;
+}
+.verified_badge{
+    width: 50px;
+    height: auto;
+}
+.badge{
+    width: 75%;
+}
+.badge img{
+    width: 100%;
+}
