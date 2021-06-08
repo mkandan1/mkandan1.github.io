@@ -61,7 +61,7 @@ body{
     font-family: var(--font-com);
     font-size: min(max(1.4rem, 4vw), 32px);
     font-weight: bold;
-    line-height: 27px;
+    line-height: 33px;
     color: #7e28d4;
     opacity: 90%;
 }
@@ -165,6 +165,7 @@ body{
 .users_tag h3{
     font-size: 11px;
     opacity: 50%;
+    font-family: var(--font-nota);
 }
 .verified_container {
     width: 100%;
