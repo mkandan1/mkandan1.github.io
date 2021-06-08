@@ -1,43 +1,149 @@
 <!DOCTYPE html>
+
+<!--
+  Website designed and developed by Manikandan P;
+  (C) Copyright 2021;
+  webpage version v0.01;
+-->
+
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/um_page_StylySheet.css">
-	<link rel="shortcut icon" href="assets/fav/favicon-32x32.png" size="32x32"type="image/x-icon">
-	<link rel="shortcut icon" href="assets/fav/favicon-16x16.png" size="16x16"type="image/x-icon">
-	<link rel="shortcut icon" href="assets/fav/android-chrome-512x512.png" size="512x512" type="image/x-icon">
-	<link rel="shortcut icon" href="assets/fav/android-chrome-192x192.png" size="192x192"type="image/x-icon">
-	<link rel="shortcut icon" href="assets/fav/apple-touch-icon.png" size="180x180"type="image/x-icon">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <meta name="theme-color" content="#0019d8">
-    <meta meta name="viewport" content="width=device-width, user-scalable=no"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mani Kandan - Developer, Software Tester</title>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="assets/fav/favicon-32x32.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/fav/favicon-16x16.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/fav/apple-touch-icon.png" type="image/x-icon">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <!--Css files-->
+  <link rel="stylesheet" href="assets/css/home_stylesheet.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+
+  <!--Unicons-->
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!--Bootstrap 4 css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <!--font from Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
-    <title>Mani Kandan - Developer, Software Tester</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
 <body>
-<!--Reminder starting here-->
-<main class="d-flex position-relative">
-    <div class="container col-12 align-self-center web__message-container">
-        <div class="row web-message mb-5">
-            <div class="col-12 header">
-                <h3 class="text-uppercase mb-3 font-weight-bold text-center">Coming Soon</h3>
-            </div>
-            <div class="col-12 header">
-                <h4 class="text-center">Website is under construction</h4>
-            </div>
-        </div>
+ 
+<!--- Navigation starts here-->
+
+<header>
+  <nav class="navbar navbar-expand-md">
+    <div class="container mt-3">
+      <a href="">
+        <img src="assets/logo/mkandan_logo.png" class="img-fluid logo_img" width="50px" height="50px" alt="Logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_menu">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse ml-0" id="nav_menu">
+        <ul class="navbar-nav mr-auto ml-lg-5">
+          <li class="nav-item active">
+            <a class="nav-link nav-item-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_item-link" href="#projects" id="projects_btn">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item-link" href="#" id="contact_me_btn">Contact Me</a>
+          </li>
+        </ul>
+        <span class="float-md-right">
+          <a class="resume_btn nav-link nav-item-link" href="#" title="Not available">Resume</a>
+        </span>
+          
+      </div>  
     </div>
-</main>    
-<!--Bootstrap JQuery-->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-<!--Bootstrap JavaScript-->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+
+  </nav>
+</header>
+
+<!--- Navigation ends here-->
+
+<section id="home">
+  <div class="container wel d-flex flex-column flex-lg-row align-items-center">
+    <div class="row d-flex flex-column flex-lg-row mt-5 align-items-center align-items-lg-left align-self-center">
+      <div class="welcome_sec_text text-center text-lg-left d-flex flex-column mt-5 align-self-center">  
+      <div class="first-text"><h1 class="position-relative">Having fresh mind for work<span>.</span></h1>
+      </div>
+      <div class="slogan d-flex justify-content-sm-center justify-content-lg-start position-relative"><p class="col-lg p-0 col-sm-9">My passion is to work smart, fast and help peoples.</p></div>
+      </div>
+      <div class="background_cir mt-md-4">
+        <div class="circle_one"></div>
+        <div class="circle_two"></div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center uc">
+      <div class="user_card_container align-self-center mt-5">
+        <div class="user_card">
+          <div class="profile_pic d-flex justify-content-center">
+            <div class="profile_img">
+              <img src="assets/img/Mani Kandan Instagram.png" alt="Manikandan">
+            </div>
+          </div>
+          <div class="users_name text-center">
+            <h2>Mani Kandan</h2>
+          </div>
+          <div class="users_tag text-center">
+            <h3>Software Tester, Developer</h3>
+          </div>
+          <div class="verified_container d-flex justify-content-center">
+            <div class="verified_badge">
+              <div class="badge">
+                <img src="assets/img/badge.png" alt="verified">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="circle_three">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="contact_popup" id="contact_me">
+  <div class="contact_popup_inside" id="contact_popup_content">
+    <span class="close"><i class="fi-rr-cross-small"></i></span>
+    <h5>Contact Me:</h5>
+  <a href="mailto:maniusualsecrets@gmail.com" class="platform" target="_blank"><i class="fas fa-envelope-square"></i> Mail</a>
+  <a href="https://www.facebook.com/UsualSecrets/" class="platform" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+  <a href="https://wa.me/6382862194" class="platform" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a href="http://github.com/mkandan1/" class="platform" target="_blank"><i class="fab fa-github"></i> Github</a>
+  <a href="https://linkedin.com/in/mkandan1/" class="platform" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+  </div>
+</div>
+
+<div class="projects_container contact_popup" id="projects_popup">
+  <div class="project_msg contact_popup_inside">
+    <span class="close_pro"><i class="fi-rr-cross-small"></i></span>
+    <h6>Not available</h6>
+    <p>Currently I'm <span>redesigning</span> my all projects. I'll publish my projects soon</p>
+  </div>
+</div>
+
+  <!--Bootstap scripts-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/0a606b725b.js" crossorigin="anonymous"></script>
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>

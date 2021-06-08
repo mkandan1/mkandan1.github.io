@@ -1,0 +1,183 @@
+
+:root{
+    --font-com: 'Comfortaa', cursive;
+    --font-nota: 'Noto Sans', sans-serif;
+    --font-normal: 400;
+    --font-bold: 600;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu{
+    text-align: center;
+    margin: 0;
+    margin-left: 60px;
+    padding: 0;
+    margin-top: 3vh;
+}
+
+.nav-item a{
+    font-family: var(--font-com);
+    font-weight: var(--font-normal);
+    font-size: 15px;
+    margin: 0 28px;
+    color: #000;
+    opacity: 25%;
+}
+.active a{
+    color: #000;
+    opacity: 80%;
+}
+.nav-item a:hover, .active a:hover{
+    color: #000;
+    opacity: 60%;
+}
+
+.resume_btn{
+    font-family: var(--font-com);
+    background-color: #00c87c;
+    opacity: 80%;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 30px !important;
+    border-radius: 50px;
+}
+.resume_btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#home, .wel, .row{
+    width: 100%;
+    height: 79vh;
+}
+.welcome_sec_text{
+    position: relative;
+}
+.welcome_sec_text h1{
+    font-family: var(--font-com);
+    font-size: min(max(1.4rem, 4vw), 32px);
+    font-weight: bold;
+    line-height: 33px;
+    color: #7e28d4;
+    opacity: 90%;
+}
+.welcome_sec_text h1 > span{
+    color: #04c63e;
+    font-size: 40px;
+}
+.welcome_sec_text p{
+    font-family: var(--font-com);
+    font-size: min(max(0.1rem, 3vw), 15px);
+    opacity: 60%;
+    margin-top: 6px;
+    line-height: 30px;
+}
+.background_cir{
+    width: min(max(10rem, 20vw), 13vw);
+    height: 120px;
+    position: relative;
+    right: 0;
+    margin-top: -50px !important;
+}
+.circle_one{
+    position: absolute;
+    right: 0;
+    width: 80%;
+    background-image: linear-gradient(180deg, #7cff80, #05b572);
+    opacity: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    bottom: 0;
+    animation-name: circle_one;
+    animation-duration: 0.8s;
+}
+.circle_one:after, .circle_two:after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+.circle_two{
+    position: absolute;
+    width: 30%;
+    background-image: linear-gradient(200deg, #7cff80, #08ba5e);
+    opacity: 100%;
+    border-radius: 50%;
+    bottom: 0;
+    margin-left: 5px;
+    animation-name: circle_two;
+    animation-duration: 0.8s;
+}
+
+@keyframes circle_one {
+    0%{
+        margin-bottom: -80px;
+    }
+    100%{
+     margin-bottom: -0px;
+    }
+ }
+ @keyframes circle_two {
+     0%{
+        margin-bottom: -25px;
+     }
+     100%{
+         margin-bottom: -0px;
+     }
+  }
+
+.user_card_container{
+    width: 190px;
+    height: 250px;
+    margin-bottom: 6vh !important;
+}
+  .user_card{
+      width: 100%;
+      height: 100%;
+      box-shadow: 0px 0px 30px 1px #d8d8d8;
+      border-radius: 5px;
+  }
+.profile_pic{
+    width: 100%;
+    height: 95px;
+}
+.profile_img{
+    width: 30%;
+    margin-top: 40px;
+}
+.profile_img img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #bcbcbc;
+}
+.users_name{
+    margin-top: 30px;
+}
+.users_name h2{
+    font-size: 18px;
+    font-family: var(--font-com);
+    font-weight: bold;
+    opacity: 80%;
+}
+.users_tag h3{
+    font-size: 11px;
+    opacity: 50%;
+    font-family: var(--font-nota);
+}
+.verified_container {
+    width: 100%;
+    margin-top: 30px;
+}
+.verified_badge{
+    width: 50px;
+    height: auto;
+}
+.badge{
+    width: 75%;
+}
+.badge img{
+    width: 100%;
+}
