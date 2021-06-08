@@ -23,25 +23,25 @@ window.onclick = function(event) {
   }
 
  //Trigger button
-var btn = document.getElementById("projects_btn");
+var btn_project = document.getElementById("projects_btn");
 
 // Get Popup
-var modal = document.getElementById("projects_popup");
+var modal_project = document.getElementById("projects_popup");
 
 //Get close button
-var closeBtn = document.getElementsByClassName("close_pro")[0];
+var closeBtn_project = document.getElementsByClassName("close_pro")[0];
 
 //When user click the button, Popup will open
-btn.onclick = function() {
-    modal.style.display = "block";
+btn_project.onclick = function() {
+  modal_project.style.display = "block";
   }
 //When user click the close button (x), Popup will close
-closeBtn.onclick = function(){
-    modal.style.display = "none";
+closeBtn_project.onclick = function(){
+  modal_project.style.display = "none";
 }
 
 window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
+    if (event.target == modal_project) {
+      modal_project.style.display = "none";
     }
   } 
