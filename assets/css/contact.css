@@ -44,6 +44,9 @@
   .project_msg{
       width: 50%;
   }
+  .project_msg h6, .contact_popup_inside h5{
+      margin-bottom: 10px;
+  }
   .project_msg p span{
     color: #00c87c;
   }
