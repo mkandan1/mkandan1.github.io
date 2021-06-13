@@ -54,10 +54,10 @@
       <div class="collapse navbar-collapse ml-0" id="nav_menu">
         <ul class="navbar-nav mr-auto ml-lg-5">
           <li class="nav-item active">
-            <a class="nav-link nav-item-link" href="">Home</a>
+            <a class="nav-link nav-item-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav_item-link" href="#" id="projects_btn">Projects</a>
+            <a class="nav-link nav_item-link" href="#projects" id="projects_btn">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-item-link" href="#" id="contact_me_btn">Contact Me</a>
@@ -81,7 +81,7 @@
       <div class="welcome_sec_text text-center text-lg-left d-flex flex-column mt-5 align-self-center">  
       <div class="first-text"><h1 class="position-relative">Having fresh mind for work<span>.</span></h1>
       </div>
-      <div class="slogan d-flex justify-content-sm-center justify-content-lg-start position-relative"><p class="col-lg p-0 col-sm-9">My passion is to work smart, fast and help people.</p></div>
+      <div class="slogan d-flex justify-content-sm-center justify-content-lg-start position-relative"><p class="col-lg p-0 col-sm-9">My passion is to work smart, fast and help peoples.</p></div>
       </div>
       <div class="background_cir mt-md-4">
         <div class="circle_one"></div>
@@ -110,33 +110,29 @@
             </div>
           </div>
         </div>
+        <div class="circle_three">
+
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!--Contact Me popup-->
-<div class="contact_me_popup" id="contact_me_popup">
-  <div class="contact_popup_content">
-    <span class="contact_me_popup_close_btn"><i class="fi-rr-cross-small"></i></span>
-      <div class="inner_content">
-        <h5>Contact Me</h5>
-        <a href="mailto:maniusualsecrets@gmail.com" class="platform" target="_blank"><img src="assets/icons/email.png" alt="Email"></a>
-        <a href="https://www.facebook.com/UsualSecrets/" class="platform" target="_blank"><img src="assets/icons/facebook_platform.png" alt="Facebook"></a>
-        <a href="https://wa.me/+916382862194" class="platform" target="_blank"><img src="assets/icons/whatsapp_platform.png" alt="Whatsapp"></a>
-        <a href="https://linkedin.com/in/mkandan1/" class="platform" target="_blank"><img src="assets/icons/linkedin_platform.png" alt="Linkedin"></a>
-      </div>
-  </div>
-  <div class="footer">
-    <p>Copyright &COPY; <span id="cr_year"></span>. All rights served | v0.02</p>
-    <p>Made with ❤️ by Mani Kandan</p>
+<div class="contact_popup" id="contact_me">
+  <div class="contact_popup_inside" id="contact_popup_content">
+    <span class="close"><i class="fi-rr-cross-small"></i></span>
+    <h5>Contact Me:</h5>
+  <a href="mailto:maniusualsecrets@gmail.com" class="platform" target="_blank"><i class="fas fa-envelope-square"></i> Mail</a>
+  <a href="https://www.facebook.com/UsualSecrets/" class="platform" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+  <a href="https://wa.me/6382862194" class="platform" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a href="http://github.com/mkandan1/" class="platform" target="_blank"><i class="fab fa-github"></i> Github</a>
+  <a href="https://linkedin.com/in/mkandan1/" class="platform" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
   </div>
 </div>
 
-<!--My projects popup-->
-<div class="projects_container" id="projects_popup">
-  <div class="project_content">
-    <span class="project_popup_close_btn"><i class="fi-rr-cross-small"></i></span>
+<div class="projects_container contact_popup" id="projects_popup">
+  <div class="project_msg contact_popup_inside">
+    <span class="close_pro"><i class="fi-rr-cross-small"></i></span>
     <h6>Not available</h6>
     <p>Currently I'm <span>redesigning</span> my all projects. I'll publish my projects soon</p>
   </div>
@@ -147,8 +143,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/0a606b725b.js" crossorigin="anonymous"></script>
-<script src="assets/js/contact_me_script.js"></script>
-<script src="assets/js/project_popup_script.js"></script>
-<script src="assets/js/main.js"></script>
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>
