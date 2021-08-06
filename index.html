@@ -6,6 +6,7 @@
   webpage version v0.01;
 -->
 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -32,7 +33,6 @@
   <!--Css files-->
   <link rel="stylesheet" href="assets/css/home_stylesheet.css">
   <link rel="stylesheet" href="assets/css/contact.css">
-  <link rel="stylesheet" href="./assets/css/project.css">
 
   <!--Unicons-->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
@@ -124,34 +124,23 @@
   </div>
 </section>
 
-<!--Contact Me popup-->
-<div class="contact_me_popup" id="contact_me_popup">
-  <div class="contact_popup_content">
-    <span class="contact_me_popup_close_btn"><i class="fi-rr-cross-small"></i></span>
-      <div class="inner_content">
-        <h5>Contact Me</h5>
-        <a href="mailto:maniusualsecrets@gmail.com" class="platform" target="_blank"><img src="assets/icons/email.png" alt="Email"></a>
-        <a href="https://www.facebook.com/UsualSecrets/" class="platform" target="_blank"><img src="assets/icons/facebook_platform.png" alt="Facebook"></a>
-        <a href="https://linkedin.com/in/mkandan1/" class="platform" target="_blank"><img src="assets/icons/linkedin_platform.png" alt="Linkedin"></a>
-      </div>
-  </div>
-  <div class="footer">
-    <p>Copyright &COPY; <span id="cr_year"></span>. All rights served | v0.02</p>
-    <p>Made with ❤️ by Mani Kandan</p>
+<div class="contact_popup" id="contact_me">
+  <div class="contact_popup_inside" id="contact_popup_content">
+    <span class="close"><i class="fi-rr-cross-small"></i></span>
+    <h5>Contact Me:</h5>
+  <a href="mailto:maniusualsecrets@gmail.com" class="platform" target="_blank"><i class="fas fa-envelope-square"></i> Mail</a>
+  <a href="https://www.facebook.com/UsualSecrets/" class="platform" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+  <a href="https://wa.me/+916382862194" class="platform" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a href="http://github.com/mkandan1/" class="platform" target="_blank"><i class="fab fa-github"></i> Github</a>
+  <a href="https://linkedin.com/in/mkandan1/" class="platform" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
   </div>
 </div>
-<!--End of Contact Me popup-->
 
-<div class="projects_container" id="projects_popup">
-  <div class="project-info">
-    <img src="https://img.icons8.com/clouds/2x/search.png" class="warning-img" alt="warning">
-    <span class="close_btn"><i class="fi-rr-cross-small"></i></span>
-   <div class="inner-content">
-    <div class="popup-title-container"> 
-      <div class="popup-title"><h6>Not available</h6></div>
-    </div>
+<div class="projects_container contact_popup" id="projects_popup">
+  <div class="project_msg contact_popup_inside">
+    <span class="close_pro"><i class="fi-rr-cross-small"></i></span>
+    <h6>Not available</h6>
     <p>Currently I'm <span>redesigning</span> my all projects. I'll publish my projects soon</p>
-   </div>
   </div>
 </div>
 
@@ -161,7 +150,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/0a606b725b.js" crossorigin="anonymous"></script>
 
-<script src="./assets/js/contact_me_script.js"></script>
-<script src="./assets/js/project_popup_script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
