@@ -8,7 +8,7 @@
     left: 0;
     top: 0;
     overflow: auto;
-    background-color: hsl(0, 0%, 0%, 15%);
+    background-color: hsl(0, 0%, 0%, 45%);
 }
 .project-info{
   width: min(max(80vw, 10vw), 500px);
@@ -16,8 +16,9 @@
   padding: 10px 0 25px 25px;
   border-radius: 5px;
   position: relative;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 98%);
   border: 1px solid #e1e1e1;
+  box-shadow: 0.10px 0.10px 20px #484848;
 }
 .project-info img{
     width: 60px;
