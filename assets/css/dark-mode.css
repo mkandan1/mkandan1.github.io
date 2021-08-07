@@ -1,0 +1,35 @@
+:root {
+    --icon-bg: #d6d6e4;
+}
+
+    [data-theme="dark"] {
+        --icon-bg: #52526c;
+    }
+
+
+.material-icons { font-size: 30px; color: var(--dark-mode-icon); margin-top: 5px;}
+
+.dark-mode-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+.theme-switch-wrapper {
+    background-color: var(--icon-bg);
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.theme-switch {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.theme-switch input {
+    display: none;
+}
