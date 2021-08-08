@@ -19,9 +19,10 @@ For example:
 
 #### ii. Expected Result:
 
-   Write what you expected when you do that.
+   Write what was you expect when you do that.
+   
    
 #### iii. Additional Info (Optional)
 
-   - List the devices which you can recreate the issue
+   - List the devices that you can recreate the issue on that
    - Others
