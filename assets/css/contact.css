@@ -1,8 +1,10 @@
 :root {
   --cm-bg: #ccffeb;
+  --close-btn: #000;
 }
 [data-theme="dark"] {
   --cm-bg: hsl(240, 25%, 12%, 100%);
+  --close-btn: #000;
 }
 
 .contact_me_popup {
@@ -32,7 +34,7 @@
   margin: 15px 15px;
   font-size: 23px;
   float: right;
-  color: #565656;
+  color: var(--close-btn);
   cursor: pointer;
 }
 
