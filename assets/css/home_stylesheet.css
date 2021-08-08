@@ -57,7 +57,7 @@ body {
     opacity: 60%;
 }
 
-i {
+#menu-button > i {
     color: var(--menu-cl) !important;
 }
 
