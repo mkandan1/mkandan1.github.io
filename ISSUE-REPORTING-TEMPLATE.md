@@ -4,12 +4,12 @@
 
 ### 1. Title: 
 
-    [Device] [Area] - Description og bug
+    Device - Area - Description og bug
 
 For example:
 
-- `[Windows 10] [Home Page] - Sign up button not working`
-- `[iPhone 12] [Sign Up] - User can create account without password`
+- `Windows 10 - Home Page - Sign up button not working`
+- `iPhone 12 - Sign Up - User can create account without password`
 
 ### 2. Additional Details:
 
@@ -21,6 +21,7 @@ For example:
 
    Write what you expected when you do that.
    
-#### iii. Attachment
+#### iii. Additional Info (Optional)
 
-   Attach one screenshot or video of the bug
+   - List the devices which you can recreate the issue
+   - Others
