@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkandan1/mkandan1.github.io.git"
+    "url": ""
   },
   "keywords": [
     "mkandan.com"
@@ -21,9 +21,9 @@
   "author": "Mani Kandan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkandan1/mkandan1.github.io/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/mkandan1/mkandan1.github.io#readme",
+  "homepage": "",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.2",
