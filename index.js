@@ -22,6 +22,10 @@ app.get('/test', (req, res) => {
     res.render('test');
 });
 
+app.get('/QR-Code-Component', (req, res) => {
+    res.render('challenges/index');
+});
+
 // Set 404 Error page
 app.get('*',(req, res, next) => {
     res.status(404).render('404');
