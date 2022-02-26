@@ -15,10 +15,6 @@
 
 <body>
 
-  <div class="spinner-grow text-success" role="status">
-    <span class="visually-hidden">Loading...</span>
-  </div>
-
   <!---====================== Navigation ==============================-->
 
   <%- include ('header') -%>
@@ -93,7 +89,7 @@
       <div id="about-wrapper" class="container">
         <div id="about-head" class="">
           <h4>About</h4>
-          <h5 class="sub-heading">Why you should Hire Me?</h5>
+          <h5 class="sub-heading">Why should you Hire Me?</h5>
           <ul class="line m-0">
             <li class="lines"></li>
             <li class="lines"></li>
@@ -122,11 +118,7 @@
 
             <div class="col-12 col-lg-6" id="highlights">
               <p>Hey, my name is Mani Kandan, from Tamil Nadu, India. I am working as a Student and Software Tester. I
-                am having 1 and half years in Web development. I'm a highly motivated Tech savvy. Currently learning
-                about Project Manager and I have obtained certificate for Project Management Foundation.</p>
-              
-              <span>My Top Skills</span>
-              <p>Requirement Analysis, Research and Analytical skill, Planning, Executing and Monitoring, Risk Management, Communication, and Web development</p>
+                am having 1 and half years in Web development. I'm a highly motivated Tech savvy and Self-learner. </p>
             </div>
           </div>
 
@@ -153,7 +145,7 @@
         <div id="my-projects-list">
           <div class="row d-flex justify-content-center">
 
-            <div class="card mr-md-5 mt-5" style="width: 18rem;">
+            <div class="card mr-md-5 mt-5" id="card" data-aos="fade-up" data-aos-duration="1000" style="width: 18rem;">
               <img class="card-img-top" src="assets/img/documentation.jpg" alt="Documentation Image">
               <div class="card-body">
                 <h5 class="card-title">Documentation Page</h5>
@@ -162,7 +154,7 @@
               </div>
             </div>
 
-            <div class="card mr-md-5 mt-5" style="width: 18rem;">
+            <div class="card mr-md-5 mt-5" data-aos="fade-up" data-aos-duration="1000" style="width: 18rem;">
               <img class="card-img-top" src="/assets/img/survey_form.jpg" alt="Survey Forms">
               <div class="card-body">
                 <h5 class="card-title">Survey Form</h5>
@@ -171,7 +163,7 @@
               </div>
             </div>
 
-            <div class="card mr-md-5 mt-5" style="width: 18rem;">
+            <div class="card mr-md-5 mt-5" data-aos="fade-up" data-aos-duration="1000" style="width: 18rem;">
               <img class="card-img-top" src="https://cypherbits.net/wp-content/uploads/2019/07/o7eexvxdnbar24gc1hqv.jpg"
                 alt="Survey Forms">
               <div class="card-body">
@@ -210,6 +202,12 @@
     <script src="./assets/js/dark-mode.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/cards.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
