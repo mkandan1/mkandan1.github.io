@@ -68,7 +68,7 @@ body {
 }
 
 .welcome_sec_text p {
-    font-family: var(--font-nota);
+    font-family: var(--font-Mon);
     font-size: min(max(0.1rem, 3vw), 15px);
     opacity: 60%;
     color: var(--text-color);/*Color for dark mode*/
@@ -194,10 +194,6 @@ body {
     width: 20%;
     margin-top: 20px;
 }
-#projects-wrapper, #about-wrapper {
-    padding-top: 17vh;
-}
-
 
 .line {
     padding: 0 !important;
@@ -240,6 +236,7 @@ body {
 #about {
     height: 100vh;
     margin-top: 8vh;
+    padding-top: 18vh;
 }
 
 #about-list {
@@ -273,7 +270,7 @@ body {
 #highlights {
     margin-top: min(max(1.2rem, 7vw), 70px);
     color: var(--text-color);
-    font-family: var(--font-nota);
+    font-family: var(--font-Mon);
     line-height: 33px;
 }
 
@@ -301,7 +298,7 @@ body {
 .card {
     background-color: var(--bg-color);
     border: 1px solid var(--outer);
-    transition: .4s;
+    opacity: 1;
 }
 .card:hover {
     box-shadow: 0px 0px 10px 1px var(--user-card-bg);
