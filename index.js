@@ -27,10 +27,9 @@ app.get('/download/app', (req, res) => {
     res.render('download');
 });
 
-app.get('/download', (req, res)=> { 
+app.get('/download', (req, res, next)=> { 
     const file = `${__dirname}/public/download/MAMCET_EEE_v1.0.apk`; 
     res.download(file);
-    res.end();
 });
 
 // Set 404 Error page
