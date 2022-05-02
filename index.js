@@ -22,8 +22,18 @@ app.get('/test', (req, res) => {
     res.render('test');
 });
 
+<<<<<<< Updated upstream
 app.get('/QR-Code-Component', (req, res) => {
     res.render('challenges/index');
+=======
+app.get('/download/Mamcet-eee_v1-0', (req, res) => {
+    res.render('download');
+});
+
+app.get('/download', (req, res)=> { 
+    const file = `${__dirname}/public/download/MAMCET_EEE_v1.0.apk`;   
+    res.download(file);
+>>>>>>> Stashed changes
 });
 
 // Set 404 Error page
