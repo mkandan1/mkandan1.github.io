@@ -1,37 +1,13 @@
-# Personal Portoflo
+# Responsive Portfolio Website Alexa
+## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
+### Responsive Portfolio Website Alexa
 
-#### Description
+- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
+- Smooth scrolling in each section.
+- Includes a light and dark mode.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-This is my personal portfolio website. I built with HTML, CSS, and JavaScript.
+💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
 
-
-#### Participation in this project
-
-[Mani Kandan](https://github.com/mkandan1)
-
-## Issue Reporting Template:
-
-### 1. Title: 
-
-    Device - Area - Description og bug
-
-For example:
-
-- `Windows 10 - Home Page - Sign up button not working`
-- `iPhone 12 - Sign Up - User can create account without password`
-
-### 2. Additional Details:
-
-#### i. Steps to recreate the issue
-   1. Open https://www.mkandan.com
-   2. Click on Sign up button.
-
-#### ii. Expected Result:
-
-   Write what was you expect when you do that.
-   
-   
-#### iii. Additional Info (Optional)
-
-   - List the devices that you can recreate the issue on that
-   - Others
+![preview img](/preview.png)
