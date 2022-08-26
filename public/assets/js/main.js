@@ -177,6 +177,11 @@ function sendEmail(){
     const message = document.getElementById('input__message').value;
     const res__message = document.getElementById('contact__response');
 
+    if (validate_name(name) == false || validate_email(email) == false || validate__project(project) == false || validate__message(message) == false) {
+        return;
+        // Don't continue running the code
+    }
+
     var templateParams = {
         from_name: name,
         reply_to: email,
@@ -195,4 +200,76 @@ function sendEmail(){
         })
     }
 
-    contactBtn.addEventListener('click', sendEmail);
+contactBtn.addEventListener('click', sendEmail);
+
+
+    // Name validation
+function validate_name(name) {
+    // Pattern
+    var firstNamePattern = /^[a-zA-Z ]*$/;
+    var empty = "";
+
+    if (firstNamePattern.test(name) == false) {
+        // First name is not valid
+        document.getElementById("error-name").innerHTML = "Please enter valid Name";
+        document.getElementById("error-name").style.color = "red";
+        return false;
+    }
+
+    else if (empty == name) {
+        document.getElementById("error-name").innerHTML = "First name can't be empty";
+        document.getElementById("error-name").style.color = "red";
+        return false;
+    }
+
+    else {
+        // First name is valid
+        document.getElementById("error-name").innerHTML = "";
+        document.getElementById("error-name").style.color = "";
+        return true;
+    }
+}
+
+function validate__project(project){
+    if(project===""){
+        document.getElementById("error-project").innerHTML = "Enter project name";
+        document.getElementById("error-project").style.color = "red";
+        return false;
+    }
+    else{
+        document.getElementById("error-project").innerHTML = "";
+        document.getElementById("error-project").style.color = "";
+        return true;
+    }
+}
+
+function validate__message(message){
+    if(message===""){
+        document.getElementById("error-message").innerHTML = "Please type your message";
+        document.getElementById("error-message").style.color = "red";
+        return false;
+    }
+    else{
+        document.getElementById("error-message").innerHTML = "";
+        document.getElementById("error-message").style.color = "";
+        return true;
+    }
+}
+
+
+// Validate Email pattern
+function validate_email(email) {
+    var emailPattern = /^[^@]+@\w+(\.\w+)+\w$/;
+    var empty = "";
+
+    if (emailPattern.test(email) == false) {
+        document.getElementById("error-email").innerHTML = "Please enter valid email";
+        document.getElementById("error-email").style.color = "red";
+        return false;
+    }
+    else {
+        document.getElementById("error-email").innerHTML = "";
+        document.getElementById("error-email").style.borderColor = "";
+        return true;
+    }
+}
