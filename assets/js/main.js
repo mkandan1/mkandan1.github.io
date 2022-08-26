@@ -166,4 +166,33 @@ function scrollUp(){
 
 window.addEventListener('scroll', scrollUp)
 
-/*==================== DARK LIGHT THEME ====================*/ 
+/*==================== SEND EMAIL ====================*/
+
+const contactBtn = document.getElementById('contact-button');
+
+function sendEmail(){
+    const name = document.getElementById('input__name').value;
+    const email = document.getElementById('input__email').value;
+    const project = document.getElementById('input__project').value;
+    const message = document.getElementById('input__message').value;
+    const res__message = document.getElementById('contact__response');
+
+    var templateParams = {
+        from_name: name,
+        reply_to: email,
+        email: email,
+        project: project,
+        message: message
+    }
+
+    emailjs.send('service_6ueb06h', 'template_fdpv07y', templateParams)
+        .then((resonse)=>{
+            res__message.innerHTML = "Message Sent!!"
+            console.log('Success!');
+        }, function(error){
+            console.log('FAILED...', error);
+            res__message.innerHTML = "Opps!! error occured..."
+        })
+    }
+
+    contactBtn.addEventListener('click', sendEmail);
