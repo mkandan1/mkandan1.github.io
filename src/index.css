@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #101112;
+    color: aliceblue;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
